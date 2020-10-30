@@ -1,2 +1,9 @@
 <h1>Welcome to the photo app!</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
+
+<% if current_user.present? %>
+  <%= link_to 'Sign out', destroy_user_session_path, class: 'btn btn-danger', method: :delete %>
+<% else %>
+  <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-info' %>
+  <%= link_to 'Sign in', new_user_session_path, class: 'btn btn-info' %>
+<% end %>
