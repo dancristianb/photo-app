@@ -17,3 +17,4 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import "bootstrap"
+require("custom/credit_card_form")
