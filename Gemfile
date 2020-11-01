@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'stripe'
+gem "aws-sdk-s3"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
