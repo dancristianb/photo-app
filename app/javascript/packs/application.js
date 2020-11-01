@@ -18,3 +18,4 @@ require("channels")
 
 import "bootstrap"
 require("custom/credit_card_form")
+require("custom/file_uploader")
